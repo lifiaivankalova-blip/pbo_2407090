@@ -16,7 +16,6 @@ public class Main {
 
         if(pilih == 1){
             Persegi p = new Persegi();
-
             System.out.print("Masukkan sisi: ");
             p.setSisi(input.nextDouble());
 
@@ -42,13 +41,9 @@ public class Main {
             sTiga.setAlas(input.nextDouble());
 
             System.out.print("Masukkan tinggi: ");
-            sTiga.set Tinggi(input.nextDouble());
+            sTiga.setTinggi(input.nextDouble());
 
             System.out.println("Luas Segitiga Adalah = " + sTiga.LuasSegitiga());
-        }
-
-        else{
-            System.out.println("Pilihan tidak tersedia");
         }
     }
 }
